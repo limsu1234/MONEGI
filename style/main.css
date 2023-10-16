@@ -1,0 +1,84 @@
+@font-face {
+  font-family: monegi_sans;
+  src: url(./font/Monegi_Sans-Regular-_1_.woff),format(woff);
+}
+@font-face {
+  font-family: monegi_serif;
+  src: url(./font/Monegi_serif-Regular.woff),format(woff);
+}
+@font-face {
+  font-family: notosanskr;
+  src: url(./font/NotoSansKR-VariableFont_wght.woff),format(woff);
+}
+@font-face {
+  font-family: haas;
+  src: url(./font/NeueHaasDisplay-Mediu.woff),format(woff);
+}
+
+
+
+body {
+  position: absolute;
+    margin: 0;
+    overflow: hidden;
+    background-color:black;
+    pointer-events: none;
+    font-size: 16px;
+  }
+  
+  
+  p {
+    margin:0;
+    font-size:17rem;
+    color: #d5d5d1;
+    position: fixed;
+    top: 20px; 
+    left:20px;
+    
+   
+    width: 100%;
+    font-family: monegi-serif;
+    /* font-family: neue-haas-grotesk-display, sans-serif; */
+    /* font-style: normal;
+    font-weight: 500; */
+    align-items: center;
+    height: 100%;
+    line-height: 0.9;
+    pointer-events: none;
+  }
+
+  .monegi{
+    position:fixed;
+    display:flex;
+    left: 50%;
+  }
+    
+
+ canvas{
+  cursor:url('SVG/Vector.svg'),auto;
+  position:fixed;
+ }
+ div{
+  display: flex;
+  position:fixed;
+  width:100vw;
+  height: 100vh;
+  top:50px;
+  left:250px;
+
+
+  }
+
+   
+  img{
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+  }
+
+
+ 
